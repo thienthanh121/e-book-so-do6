@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Số đỏ – Vũ Trọng Phụng</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <div class="side-tools">
+    <a class="home-link" href="index.html">&#8592; Trang bìa</a>
+    <button class="toc-link" id="btnToc" type="button">&#9776; Mục lục</button>
+
+    <div class="hl-tools" id="hlTools">
+      <button type="button" id="hlToggle">&#128396; Bút dạ quang</button>
+      <span class="hl-extra">
+        <button type="button" class="sw c1" data-c="c1" aria-label="Vàng"></button>
+        <button type="button" class="sw c2" data-c="c2" aria-label="Hồng"></button>
+        <button type="button" class="sw c3" data-c="c3" aria-label="Xanh"></button>
+        <button type="button" id="hlClear">Xóa hết</button>
+      </span>
+    </div>
+  </div>
+
+  <main class="stage">
+    <div class="book-frame" id="bookFrame" data-state="start">
+
+      <button class="nav-btn btn-prev" id="btnPrev" aria-label="Trang trước">&#10094;</button>
+      <button class="nav-btn btn-next" id="btnNext" aria-label="Trang sau">&#10095;</button>
+
+      <div class="book-shift">
+        <div class="book" id="book">
+
+          <!-- SHEET 0: Bìa trước (ảnh) | MỤC LỤC (trang trái) -->
+          <div class="sheet">
+            <section class="face front cover cover-img"></section>
+            <section class="face back">
+              <h2>Mục lục</h2>
+              <ol class="toc">
+                <br><li><a href="#" data-goto="1"><span>Tác Giả Vũ Trọng Phụng</span><i></i><b>1</b></a></li>
+                <br><li><a href="#" data-goto="2"><span>Tác Phẩm Số Đỏ</span><i></i><b>2</b></a></li>
+                <br><li><a href="#" data-goto="3"><span>Tóm Tắt Tác Phẩm</span><i></i><b>4,5</b></a></li>
+                <br><li><a href="#" data-goto="4"><span>Số Phận và Ảnh Hưởng</span><i></i><b>6</b></a></li>
+                <br><li><a href="#" data-goto="4"><span>Đánh Giá Về Tác Phẩm</span><i></i><b>7,8</b></a></li>
+                <br><li><a href="#" data-goto="5"><span>Bài Viết Cảm Nhận</span><i></i><b>9</b></a></li>
+              </ol>
+              <p class="hint">Nhấn vào mục để nhảy nhanh tới trang.</p>
+            </section>
+          </div>
+
+          <!-- SHEET 1: Trang 2 (Tác giả) | Trang 3 (Tác phẩm) -->
+<div class="sheet">
+            <section class="face front dense">
+    <h2>Tác Giả Vũ Trọng Phụng</h2>
+    <div class="author-layout">
+    <div class="author-photo">
+    <img src="images/vu-trong-phung.jpg"
+         alt="Chân dung Vũ Trọng Phụng">
+    <p class="sub">
+        (1912 – 1939)<br>
+        "Ông vua phóng sự đất Bắc"
+    </p>
+    </div>
+        <p><b>Cuộc đời:</b>
+            Sinh ra trong một gia đình nghèo ở Hà Nội(quê gốc Hưng Yên), sớm mồ côi cha và phải
+            bươn chải kiếm sống từ nhỏ. Ông qua đời khi
+            mới 27 tuổi vì bệnh lao phổi, để lại dấu ấn
+            văn chương sâu đậm.</p>
+</div>
+      <p><b>Tác phẩm tiêu biểu:</b> Chỉ trong gần 10 năm cầm bút, ông để lại gia tài đồ sộ: tiểu thuyết (<em>Số đỏ, Giông tố, Vỡ đê</em>), phóng sự (<em>Kỹ nghệ lấy Tây, Cạm bẫy người, Cơm thầy cơm cô</em>), truyện ngắn và kịch.</p>
+      <p><b>Phong cách:</b> Ngòi bút hiện thực sắc sảo, phơi bày trần trụi mặt trái xã hội thực dân nửa phong kiến qua giọng văn trào phúng, châm biếm bậc thầy.</p>
+    <span class="pno">1</span>
+            </section>
+            <section class="face back dense">
+    <h2>Tác Phẩm Số Đỏ</h2>
+      <br><p><em><b>Số đỏ</b></em> là tiểu thuyết của Vũ Trọng Phụng, đăng trên Hà Nội báo từ số 40 ngày 7 tháng 10 năm 1936 và in thành sách lần đầu năm 1938, gồm 20 chương.</p>
+      <br><p>Nhân vật chính là Xuân, biệt danh <b>Xuân Tóc Đỏ</b>: từ một kẻ bị coi là hạ lưu, bỗng chốc bước lên tầng lớp danh giá của xã hội nhờ trào lưu Âu hóa của giới tiểu tư sản Hà Nội khi đó.</p>
+      <br><p>Một đoạn trích được đưa vào sách giáo khoa Ngữ văn 12 (chương trình mới, tập 1) với tên <em>Xuân Tóc Đỏ cứu quốc</em>, một phần tên chương XX: <em>Xuân Tóc Đỏ cứu quốc – Xuân Tóc Đỏ vĩ nhân – Nỗi buồn của ông bố vợ không bị đấm.</em></p>
+    <span class="pno">2</span>
+            </section>
+          </div>
+
+                    <!-- SHEET 2: Video | Tóm tắt (1) -->
+          <div class="sheet">
+            <section class="face front video-page">
+              <h2>Video Về Tác Phẩm</h2>
+<p class="video-hint">&#9654; Bấm vào ảnh để xem</p>
+              <div class="page-content">
+  <figure class="book-video">
+    <a href="https://www.youtube.com/watch?v=_jwzV0NuFok" target="_blank" rel="noopener">
+      <img src="./images/cottruyen.png" alt="Cốt truyện Số Đỏ">
+    </a>
+    <figcaption>Cốt truyện "Số Đỏ"<br>Nguồn: YTB: Jos. Phong Pham</figcaption>
+  </figure>
+
+  <figure class="book-video">
+    <a href="https://www.youtube.com/watch?v=KiUaMDTiOXY" target="_blank" rel="noopener">
+      <img src="./images/tomtat.png" alt="Tóm tắt Số Đỏ">
+    </a>
+    <figcaption>Tóm tắt "Số Đỏ"<br>Nguồn: YTB: Anh Kiệt Đọc Sách</figcaption>
+  </figure>
+</div>
+
+              <span class="pno">3</span>
+            </section>
+            <section class="face back">
+              <h2>Tóm Tắt Tác Phẩm</h2>
+              <p>Xuyên suốt sự nghiệp văn học của Vũ Trọng Phụng, tiểu thuyết “Số Đỏ” có thể được xem là con tàu đưa ông trở thành một trong “tứ trụ” văn học hiện thực phê phán (Nam Cao – Ngô Tất Tố - Nguyễn Công Hoan – Vũ Trọng Phụng). Tác phẩm là một tiếng cười mỉa mai, vạch trần hiện thực xã hội thượng lưu Hà Nội thời Tây hóa nửa mùa trước Cách mạng với nhân vật chính là Xuân “Tóc Đỏ”, một kẻ lưu manh, vô học nhưng khôn vặt. Chính nhờ cái sự thạo đời của hắn cùng với may mắn liên tiếp mà Xuân ta “một bước lên đời”. Xuân là đứa trẻ mồ côi, năm 9 tuổi phải ở nhờ nhà một người bác họ nhưng sau khi bị đuổi đi vì nhìn bác gái tắm, hắn lang thang nay đây mai đó, làm đủ mọi việc vặt để kiếm sống. Từ bán phá xa, bán nhật trình, chạy cờ rạp, và cuối cùng là nhặt banh tại một sân quần vợt ở mở đầu “Số Đỏ”. Cuộc đời Xuân đã thay đổi khi hắn gặp bà Phó Đoan, một bà mệnh phụ thích đời sống hưởng lạc, chạy theo dục vọng. Bà ta đã giúp hắn nộp phạt thoát khỏi ngục tù khi bị cảnh sát bắt nhầm vì nghĩ hắn phát tán thuốc lậu và giới thiệu công việc cho hắn. Đó chính là tấm vé giúp Xuân Tóc Đỏ đặt chân vào giới thượng lưu và tham gia vào các hoạt động “cải cách xã hội” theo cách của mình, mở đầu cho</p>
+              <span class="pno">4</span>
+            </section>
+          </div>
+
+          <!-- SHEET 3: Tóm tắt (2) | Số phận & ảnh hưởng -->
+          <div class="sheet">
+            <section class="face front">
+              <br><p>chuỗi may mắn kì quặc. Một số sự kiện giúp Xuân “lên đời” là khi Xuân tình cờ chạm mặt tuyển nữ thể thao và giúp cô Tuyết “sửa vòng” trước khi thi. Việc làm vô tình lại bị xem là hành động “rất thể thao”, khiến nhà Văn Minh để ý và mời Xuân đến nhà. Ở nhà Văn Minh, Xuân đụng độ một khách hàng và gây ra vụ ẩu đả. Vậy mà, cảnh rùm beng lại trở thành quảng cáo miễn phí cho hiệu may "Âu Hóa". Do đó, gia đình Văn Minh bắt đầu quý hắn ta. Ông bà Văn Minh cùng “Nhà cải cách lễ nghi” đề xướng phong trào “Âu hóa”, thay đổi phong tục tập quán để kiếm tiền. Xuân được xem như “người hiểu thời đại”, trở thành một phần trong bộ máy cải cách lố bịch. Sau đó, do hiểu lầm và ăn nói liều lĩnh, hắn ta khiến cụ cố Hồng tin rằng mình bị “trúng gió Âu hóa” và cần chữa theo phương pháp mới. May mắn, cụ cảm thấy đỡ hơn, và Xuân được tung hô là “người có y thuật”. Bỗng chốc hắn được thổi phồng lên là sinh viên trường thuốc, đốc tờ Xuân. Được giao phó trọng trách chữa bệnh cho cụ cố Hồng – cụ tổ nhà Văn Minh. Ngược lại, hắn cũng có nhiệm vụ giết cụ cố Hồng để hợp pháp tờ di chúc của cụ. Trải qua hàng loạt sự kiện may mắn phi vô lý, Xuân càng lên như diều gặp gió, từ một kẻ lang bạt, vô giáo dục lại trở thành “anh hùng cứu quốc” “vĩ nhân dân tộc” có tầm ảnh hưởng rộng lớn. Từ một tên ở đáy xã hội bất chợt nhảy vọt lên tầng lớp “thượng lưu” danh giá.</p>
+              <span class="pno">5</span>
+            </section>
+            <section class="face back">
+              <h2>Số phận &amp; Ảnh hưởng</h2>
+              <br><p><b>Số phận tác phẩm.</b> <em>Số đỏ</em>, cũng như các tác phẩm khác của Vũ Trọng Phụng, từng bị cấm lưu hành tại Việt Nam Dân chủ Cộng hòa trước năm 1975, và tại Việt Nam sau ngày thống nhất từ năm 1975 đến năm 1986. Hiện nay tác phẩm đã được tái xuất bản và phê duyệt.</p>
+              <br><p><b>Ảnh hưởng.</b> <em>Số đỏ</em> có ảnh hưởng lớn đến đời sống xã hội Việt Nam: nhiều nhân vật và câu nói trong truyện đã đi vào cuộc sống đời thường. Tác phẩm cũng đã được dựng thành kịch và phim.</p>
+              <img src="./images/sophan.jpg" alt="Ảnh tác phẩm" width="355" height="200">
+              <span class="pno">6</span>
+            </section>
+          </div>
+
+          <!-- SHEET 4: Đánh giá | Trang 8 -->
+          <div class="sheet">
+            <section class="face front dense">
+              <h2>Đánh Giá Về Tác Phẩm</h2>
+              <div class="author-layout">
+                <div class="author-photo">
+                  <img src="./images/nguyenkhai.jpg" alt="Nguyễn Khải">
+                  <p class="sub">Nhà Văn - Nguyễn Khải</p>
+                </div>
+                <p>Nói đến tiểu thuyết Vũ Trọng Phụng không thể không nhắc đến tác phẩm Số đỏ - “cuốn sách ghê gớm có thể làm vinh dự cho mọi nền văn học”</p>
+              </div>
+              <div class="author-layout right">
+                <div class="author-photo">
+                  <img src="./images/NikolaiNikulin.jpg" alt="Nikolai Nikulin">
+                  <p class="sub">Nhà nghiên cứu văn học Việt Nam người Nga - Nikolai Nikulin</p>
+                </div>
+                <p>Nikulin ca ngợi cách nhà văn xây dựng nhân vật Xuân Tóc Đỏ:
+                “Đã sử dụng những thủ pháp phóng đại khi vẽ một gã phiêu lưu khác ấy là
+                 Xuân Tóc Đỏ, một kẻ chuyên nhặt banh quần vợt nhưng sự ngẫu nhiên một cách 
+                 ngược đời và sự ngu xuẩn đến mức phi lý của xã hội đã đưa y lên đỉnh vinh quang”</p>
+              </div>
+              <span class="pno">7</span>
+            </section>
+            <section class="face back">
+              <h2>Đánh Giá Về Tác Phẩm</h2>
+              <div class="author-layout right">
+                <div class="author-photo">
+                  <img src="./images/luutronglu.jpg" alt="Lưu Trọng Lư">
+                  <p class="sub">Nhà thơ, nhà văn - Lưu Trọng Lư</p>
+                </div>
+                <p>"Vũ Trọng Phụng sắc sảo bao nhiêu thì trong cuộc đời Vũ Trọng Phụng càng chân thành bấy nhiêu. Con người ấy không giết quá một con muỗi. Nhưng thật kỳ diệu, văn chương của con người ấy làm cho kẻ trọc phú phải giật mình, kẻ trưởng giả phải cáu kỉnh.”</p>
+              </div>
+              <div class="author-layout">
+                <div class="author-photo">
+                 <img src="./images/doduchieu.jpg" alt="Đỗ Đức Hiểu">
+                  <p class="sub">Nhà nghiên cứu, phê bình văn học - Đỗ Đức Hiểu</p>
+                </div>
+                <p>“Số đỏ là cái cười nhại với một tầm cỡ lớn: nhại một xã hội, một phong trào chính trị, một thời đô thị hóa. Nó nhại một trào lưu văn hóa, một trào lưu văn học, một nghệ thuật trừu tượng cực đoan. Nó nhại một ngôn ngữ đang hình thành, hổ lốn, tạp nham, lổn nhổn, khấp khếnh, xiêu vẹo”</p>
+              </div>
+              <span class="pno">8</span>
+            </section>
+          </div>
+          <div class="sheet">
+            <section class="face front dense">
+              <h2>Bài Viết Cảm Nhận</h2>
+              <div class="photo-grid">
+
+  <div class="author-photo">
+    <a href="https://tuoitre.vn/nld/van-hoa-van-nghe/voi-27-nam--vu-trong-phung-da-kip-thanh-nha-van-lon-55423.htm" target="_blank" rel="noopener"><img src="./images/nguyendangmanh.jpg" alt="Nguyễn Đăng Mạnh"></a>
+    <p class="sub">Nhà nghiên cứu văn học Việt Nam hiện đại - Nguyễn Đăng Mạnh</p>
+  </div>
+
+  <div class="author-photo">
+    <a href="https://thethaovanhoa.vn/so-do-cua-vu-trong-phung-vinh-du-cho-moi-nen-van-hoc-20211203072615456.htm" target="_blank" rel="noopener"><img src="./images/doduchieu.jpg" alt="Đỗ Đức Hiểu"></a>
+    <p class="sub">Nhà nghiên cứu, phê bình văn học - Đỗ Đức Hiểu</p>
+  </div>
+
+  <div class="author-photo">
+    <a href="https://tuoitre.vn/nld/van-hoa-van-nghe/voi-27-nam--vu-trong-phung-da-kip-thanh-nha-van-lon-55423.htm" target="_blank" rel="noopener"><img src="./images/PETER ZINOMAN.jpg" alt="Peter Zinoman"></a>
+    <p class="sub">Tiến sĩ sử học - PETER ZINOMAN</p>
+  </div>
+
+  <div class="author-photo">
+    <a href="https://thethaovanhoa.vn/so-do-cua-vu-trong-phung-vinh-du-cho-moi-nen-van-hoc-20211203072615456.htm" target="_blank" rel="noopener"><img src="./images/vungocphan.jpg" alt="Vũ Ngọc Phan"></a>
+    <p class="sub">Nhà văn,nhà nghiên cứu văn học hiện đại và dân gian - Vũ Ngọc Phan</p>
+  </div>
+
+</div>
+              <span class="pno">9</span>
+            </section>
+            <section class="face back dense thanks">
+  <h2>Lời cảm ơn</h2>
+  <p>Ban biên soạn lớp 12A3 xin trân trọng gửi lời cảm ơn sâu sắc đến quý độc giả đã dành thời gian quan tâm và đồng hành cùng cuốn ebook này.</p>
+  <p>Cuốn sách tập trung giới thiệu và phân tích những bài nhận định, bình luận hay về tiểu thuyết Số đỏ của nhà văn Vũ Trọng Phụng. Trong quá trình biên soạn, chúng em đã được tiếp cận nhiều góc nhìn sâu sắc từ các nhà nghiên cứu, nhà phê bình và những độc giả yêu mến tác phẩm. Xin chân thành cảm ơn các tác giả của những bài viết giá trị ấy – chính những góc nhìn tinh tế và tâm huyết của quý vị đã trở thành nguồn cảm hứng quan trọng để cuốn sách này được hình thành.</p>
+  <p>Rất mong cuốn ebook này phần nào giúp ích cho những ai yêu thích Số đỏ và quan tâm đến các bài nhận định về tác phẩm. Mọi góp ý chân thành từ quý độc giả đều là món quà quý giá giúp chúng em hoàn thiện hơn trong những lần xuất bản sau.</p>
+  <p>Xin chân thành cảm ơn!</p>
+  <span class="pno">10</span>
+</section>
+          </div>
+
+          <!-- SHEET:trắng -->
+          <div class="sheet">
+            <section class="face front dense credits-page">
+  <h2>Ban Biên Soạn</h2>
+  <ul class="credits">
+    <li>Trần Thái Thiện Thành</li>
+    <li>Dương Nguyễn Minh Tâm</li>
+    <li>Nguyễn Trung Kiên</li>
+    <li>Nguyễn Đức Anh</li>
+    <li>Đỗ Trung Đức</li>
+    <li>Trần Việt Anh</li>
+  </ul>
+  <span class="pno">11</span>
+</section>
+            <section class="face back dense">
+              <span class="pno">12</span>
+            </section>
+          </div>
+
+         <!-- SHEET 5: Trang cuối | Bìa sau -->
+<div class="sheet">
+    <section class="face front">
+        <span class="pno">13</span>
+    </section>
+
+    <section class="face back cover back-cover">
+        <img
+            src="./images/bia-cuoi.jpg"
+            alt="Bìa sau sách Số Đỏ - Vũ Trọng Phụng"
+            class="back-cover-image"
+        >
+    </section>
+</div>
+          
+
+        </div><!-- /book -->
+      </div><!-- /book-shift -->
+    </div><!-- /book-frame -->
+    <p class="indicator" id="indicator"></p>
+  </main>
+  <!-- Khung xem video lớn -->
+<dialog class="video-modal" id="videoModal">
+  <button
+    class="video-modal-close"
+    id="closeVideoModal"
+    type="button"
+    aria-label="Đóng video"
+  >
+    &times;
+  </button>
+
+  <video
+    class="large-video"
+    id="largeVideo"
+    controls
+    playsinline
+    preload="metadata"
+  ></video>
+</dialog>
+  <script src="book.js"></script>
+</body>
+</html>
